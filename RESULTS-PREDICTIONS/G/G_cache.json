@@ -1,0 +1,47 @@
+{
+  "A|Regle_URL|42": {
+    "signature": "1c95cbd426fb639138da004966fac2319425868637acbf10b323c36583ea1b5b"
+  },
+  "A|Regle_nombre|42": {
+    "signature": "e0e995130e19a62bc548ecb07d754bfc6cf2540b68a34ff2c303a81cde9b1e63"
+  },
+  "A|Regle_pays_institution|42": {
+    "signature": "5bc447936284cf10d6b1ca9bc8ddf325700ec97dda6bf3adb8e13adb69f5415a"
+  },
+  "A|TFIDF_LR_seuil_optimise|42": {
+    "signature": "93c1be44b17f8675fbaed5d53688b327f7b531ab9fcf75264df878dd904cf63f"
+  },
+  "A|Toujours_No|42": {
+    "signature": "88c9621afab456c69581d1066d41ca5e63dafc43d6e6e560effc13765df539ec"
+  },
+  "B1|NLI_fr_optimise|42": {
+    "signature": "9d41b7663321f5f2f3b5b454c3c6f42bfa3f53f04af3b636214ccdcb20091758"
+  },
+  "B2|CAMeLBERT_entite_et_nombre|42": {
+    "signature": "506668738044e06849fdfec278f1a8346a5bbaea5f6c91dc1e2e1de56fbdfac6"
+  },
+  "C|C_meilleur_ponderee_optimise|42": {
+    "signature": "8d74152d384854a77c930b366da405ca3bf595310dcf07fff1a05ed976d739d8"
+  },
+  "D|D2_BiLSTM_attention_optimise|42": {
+    "signature": "5440a6a323d6facfe4d2dcc5d52c6d36a87475928a0ec9b55a101984bbc8404f"
+  },
+  "E1|E1_AraBERT_optimise|42": {
+    "signature": "fd83bd127a64d5fd13106acedecfd8a6042178c16738e9c143aa37c6179b89d4"
+  },
+  "E1|E1_AraBERT_optimise|43": {
+    "signature": "0514d040b3c5476d1613aa148cfa9d7407a6e5bcbfc19a8fd719b4595c536c5c"
+  },
+  "E1|E1_AraBERT_optimise|44": {
+    "signature": "44a42450e536aff1ae6632ba489eb1da78d3db5acc0f15deddbd51e68a9a9672"
+  },
+  "E2|E2_XLMR_lambda_0.5_optimise|42": {
+    "signature": "d239f7dd4cc0d0fef84e10547f8a167bda2e3365117f00f18f7e8a57b254017e"
+  },
+  "E2|E2_XLMR_lambda_0.5_optimise|43": {
+    "signature": "daa81a1a2f158dc3e15b2cc4f1618d2e6d8277730fc1e91de733edf29a08f964"
+  },
+  "E2|E2_XLMR_lambda_0.5_optimise|44": {
+    "signature": "1b19fbf51425d6bd782695312e8e316161bc2062295e625c7603c59ba0524363"
+  }
+}
