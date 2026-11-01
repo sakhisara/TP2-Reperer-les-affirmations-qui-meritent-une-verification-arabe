@@ -1,0 +1,14 @@
+{
+  "ar": {
+    "Yes": "تحتوي هذه التغريدة على ادعاء واقعي مهم يستحق التحقق.",
+    "No": "تعبر هذه التغريدة عن رأي."
+  },
+  "fr": {
+    "Yes": "Ce tweet contient une affirmation factuelle importante qu'il faut vérifier.",
+    "No": "Ce tweet est une opinion."
+  },
+  "en": {
+    "Yes": "This tweet contains an important factual claim that deserves fact-checking.",
+    "No": "This tweet expresses an opinion."
+  }
+}

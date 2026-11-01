@@ -1,0 +1,15 @@
+﻿split,indice,occurrences,tweets_concernes,pourcentage
+train,url,5507,4845,66.07
+train,mention,956,619,8.44
+train,hashtag,12644,5506,75.09
+train,nombre,11582,5055,68.93
+train,pays,4373,2947,40.19
+train,institution,481,457,6.23
+train,retweet,0,0,0.0
+dev,url,773,699,63.95
+dev,mention,156,109,9.97
+dev,hashtag,1621,763,69.81
+dev,nombre,1691,785,71.82
+dev,pays,486,358,32.75
+dev,institution,77,72,6.59
+dev,retweet,0,0,0.0

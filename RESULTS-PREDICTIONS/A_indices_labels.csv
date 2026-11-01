@@ -1,0 +1,13 @@
+﻿split,indice,present,effectif,pourcentage_Yes
+train,has_nombre,False,5200,26.25
+train,has_nombre,True,2133,41.16268166901078
+train,has_url,False,2488,24.27652733118971
+train,has_url,True,4845,33.82868937048504
+train,has_pays_ou_institution,False,4099,25.68919248597219
+train,has_pays_ou_institution,True,3234,36.79653679653679
+dev,has_nombre,False,741,37.65182186234818
+dev,has_nombre,True,352,37.5
+dev,has_url,False,394,39.340101522842644
+dev,has_url,True,699,36.62374821173104
+dev,has_pays_ou_institution,False,692,35.54913294797688
+dev,has_pays_ou_institution,True,401,41.14713216957606
