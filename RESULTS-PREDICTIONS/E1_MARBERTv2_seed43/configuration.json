@@ -1,0 +1,24 @@
+{
+  "model_id": "UBC-NLP/MARBERTv2",
+  "deux_tetes": false,
+  "max_length": 128,
+  "seed": 43,
+  "lambda_en": 0.0,
+  "seuil": 0.1458437740802765,
+  "config": {
+    "lr": 2e-05,
+    "batch_size": 32,
+    "micro_batch": 8,
+    "min_epochs": 3,
+    "max_epochs": 5,
+    "patience": 2,
+    "warmup": 0.1,
+    "weight_decay": 0.01
+  },
+  "labels": {
+    "No": 0,
+    "Yes": 1
+  },
+  "revision": null,
+  "preprocessing": "texte_original"
+}

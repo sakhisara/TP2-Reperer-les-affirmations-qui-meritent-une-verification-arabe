@@ -1,0 +1,24 @@
+{
+  "model_id": "aubmindlab/bert-base-arabertv02-twitter",
+  "deux_tetes": false,
+  "max_length": 64,
+  "seed": 43,
+  "lambda_en": 0.0,
+  "seuil": 0.24454335868358612,
+  "config": {
+    "lr": 2e-05,
+    "batch_size": 32,
+    "micro_batch": 8,
+    "min_epochs": 3,
+    "max_epochs": 5,
+    "patience": 2,
+    "warmup": 0.1,
+    "weight_decay": 0.01
+  },
+  "labels": {
+    "No": 0,
+    "Yes": 1
+  },
+  "revision": null,
+  "preprocessing": "ArabertPreprocessor"
+}
