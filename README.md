@@ -163,20 +163,14 @@ Les cellules de présentation/import de CSV ou de téléchargement final ne sont
 
 Le notebook contient les sorties enregistrées de G, mais sa première cellule G est un correctif qui suppose une définition antérieure de `charger_modele_G`. Cette définition initiale et la préparation de `experiences_G` ne figurent pas dans le fichier joint. Pour relancer G dans une session vierge, restaurer la cellule d’initialisation et de chargement correspondante. Les résultats enregistrés ne prouvent pas que le fichier s’exécute intégralement dans une nouvelle session.
 
-### Version découpée en modules
-
-Le ZIP de code fourni séparément contient `src/data.py`, `src/preprocess.py`, `src/models.py`, `src/train.py` et `src/evaluate.py`, ainsi qu’un lanceur `run.py`. Cette extraction provient d’une version précédente du notebook. Elle conserve les dépendances entre cellules dans un espace de variables commun.
-
-Depuis la racine du dossier extrait :
-
-```bash
-pip install -r requirements.txt
-python run.py --list --until F5
-python run.py --until A
-```
-
-`--until A` exécute l’audit et A. Une commande vers une partie ultérieure relance aussi ses étapes préalables. Les modules ne s’exécutent pas séparément. Consulter le README interne du ZIP pour la limite G.
-
+##Organisation du code
+Le dossier src/ contient le code réparti en cinq fichiers :
+- data.py : chargement des données.
+- preprocess.py : prétraitement et préparation des textes.
+- models.py : définition des modèles.
+- train.py : entraînement.
+- evaluate.py : évaluation et analyse des résultats.
+Ces fichiers conservent les dépendances du notebook et ne s’exécutent pas séparément. Pour reproduire les expériences il faut utiliser le notebook principal.
 ## Fichiers générés
 
 | Emplacement dans `results/` | Contenu |
