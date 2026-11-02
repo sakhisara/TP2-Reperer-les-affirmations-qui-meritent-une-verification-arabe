@@ -1,9 +1,6 @@
 # CheckThat! 2024 — Détection d’affirmations à vérifier en arabe
 
 **Auteure :** Sakhi Sara — Groupe 9, travail individuel  
-**Formation :** Master Big Data & Internet of Things, ENSAM Casablanca  
-**Module :** M237 — Transformers & LLMs  
-**Année universitaire :** 2025–2026
 
 ## Objectif
 
